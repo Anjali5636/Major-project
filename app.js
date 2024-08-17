@@ -88,9 +88,6 @@ app.use((err,req,res,)=>{
   res.status(statusCode).render("error.ejs",{message});
 });
 
-app.listen(5000,() =>{
-    console.log("server is listening to port 5000");
+app.listen(4000,() =>{
+    console.log("server is listening to port 4000");
 });
-<br>
-</br>
-
